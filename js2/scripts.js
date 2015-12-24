@@ -1,4 +1,5 @@
 // CUSTOM KEYSOFT SCRIPTS
+var contact_address = "contact@fusiform.co";
 
 (function($) {
 
@@ -90,10 +91,12 @@
       if (firstName.indexOf(' ') >= 0) {
         firstName = name.split(' ').slice(0, -1).join(' ');
       }
+      var post_url = "//formspree.io/" + contact_address;
       $.ajax({
-        url: "././mail/contact_me.php",
-        type: "POST",
+        url: post_url,
+        method: "POST",
         data: {
+          form: "Trial Contact Us",
           name: name,
           email: email,
           message: message
