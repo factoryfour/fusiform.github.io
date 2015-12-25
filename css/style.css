@@ -1445,7 +1445,7 @@ header .container {
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
-    opacity: 0.30;
+    opacity: .6;
 }
 #clients .slider img:hover {
     opacity: 1;
