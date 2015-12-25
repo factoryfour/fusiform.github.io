@@ -1437,7 +1437,7 @@ header .container {
 }
 #clients .slider {
     max-width: 1024px;
-    margin: 38px auto
+    margin: 38px auto;
 }
 #clients .slider img {
     display: block;
@@ -2310,7 +2310,26 @@ text-transform: uppercase;
   background:white;
   -webkit-animation:bounce 1s infinite;
 }
-
+.glyphicon.glyphicon-one-fine-full-dot {
+    margin-bottom: -.8em;
+    color: darkgray;
+    overflow: hidden;
+}
+.glyphicon.glyphicon-one-fine-full-dot:before {
+    content:"\25cf";
+    color: #818181;
+    font-size: 2em;
+}
+.glyphicon.glyphicon-one-fine-empty-dot {
+    margin-bottom: -.8em;
+    color: #818181;
+    overflow: hidden;
+}
+.glyphicon.glyphicon-one-fine-empty-dot:before {
+    content:"\25cb";
+    color: darkgray;
+    font-size: 2em;
+}
 @-webkit-keyframes bounce {
   0%       { bottom:3px; }
   5%       { bottom:5px; }

@@ -160,7 +160,7 @@
                         <span class="separator"></span>
                         <p style="font-family: Avenir;" class="section-subheading ">Introducing the first modular orthotic device. Capable of being manufactured in a fraction of the time in-house, this manufacturing process is <strong>revolutionary</strong>.</p>
 
-
+                        
 
                        
                         <h4 style="color:#00a6c6;font-family:Avenir;font-size:32px;" id="product-description">A completely modular design.</h4>
@@ -168,7 +168,7 @@
 
                         <div class="bounce"><!-- <img src="img/arrow.png"> --><span style="color:#00a6c6;" class="icon featured-1 fa-angle-double-right"></span></div>
 
-
+ <p style="font-family: Avenir;" class="section-subheading "><i>Click the images to learn more.</i></p>
 
 
                     </div>
@@ -176,9 +176,14 @@
                        
 
                         <img style="width:50%;" id="design1" onclick="changeImage()" src="img/view3_exploded_black.png">
-
+                        </br>
+                    <div id="slider-progress">
+                        <span class="glyphicon glyphicon-one-fine-full-dot"></span>
+                        <span class="glyphicon glyphicon-one-fine-empty-dot"></span>
+                        <span class="glyphicon glyphicon-one-fine-empty-dot"></span>
+                    
+                    </div>
                         
-
                         
                     </div>
                     <!-- END OUR DESIGN HEADING -->
@@ -325,11 +330,18 @@
         <!-- CLIENTS -->
         <section id="clients" class="gray-bg">
             <div class="container">
+                <div class="row">
+                    <!-- TEAM HEADING -->
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">Our Partners</h2>
+                        <span class="separator"></span>
+                    </div>
+                    <!-- END TEAM HEADING -->  
+                </div>
                 <div class="slider">
                     <!-- <div class="clients-content">
                         <a href="#"><img style="width:100%;" src="img/logos/fusiformFINAL(4.15)clear(normal).png" alt=""></a>
                     </div> -->
-                    
                     <div class="clients-content">
                         <a href="#"><img style="width:100%;" src="img/sil_logo copy.png" alt=""></a>
                     </div>
@@ -463,6 +475,8 @@
         <script>
             function changeImage() {
                 var image = document.getElementById('design1');
+                var progress = document.getElementById('slider-progress');
+                var description = document.getElementById("product-description");
                 // if (image.src.match("img/orthotic_graphic.png")) {
                 //     image.src = "img/mockups/clientside.png";
                 // } else {
@@ -471,15 +485,22 @@
 
                 if (image.src.match("img/view3_exploded_black.png")) {
                     image.src = "img/calf_exploded_black.png";
-                    document.getElementById("product-description").innerHTML = "Remove a piece and refabricate in minutes.";
+                    image.style.paddingTop = "100px";                    
+                    image.style.width = "80%";
+                    progress.innerHTML = "<span class=\"glyphicon glyphicon-one-fine-empty-dot\"></span><span class=\"glyphicon glyphicon-one-fine-full-dot\"></span><span class=\"glyphicon glyphicon-one-fine-empty-dot\"></span>";
+                    description.innerHTML = "Remove a piece and refabricate in minutes.";
                 }
                 else if (image.src.match("img/calf_exploded_black.png")) {
                     image.src = "img/view2_woleg.png";
-                    document.getElementById("product-description").innerHTML = "Increase the lifespan of the device.";
+                    image.style.paddingTop = "0px";                   
+                    image.style.width = "50%";
+                    description.innerHTML = "Increase the lifespan of the device.";
+                    progress.innerHTML = "<span class=\"glyphicon glyphicon-one-fine-empty-dot\"></span><span class=\"glyphicon glyphicon-one-fine-empty-dot\"></span><span class=\"glyphicon glyphicon-one-fine-full-dot\"></span>";
                 }
                 else {
                     image.src = "img/view3_exploded_black.png";
-                    document.getElementById("product-description").innerHTML = "A completely modular design.";
+                    description.innerHTML = "A completely modular design.";
+                    progress.innerHTML = "<span class=\"glyphicon glyphicon-one-fine-full-dot\"></span><span class=\"glyphicon glyphicon-one-fine-empty-dot\"></span><span class=\"glyphicon glyphicon-one-fine-empty-dot\"></span>";
                 }
 
                 // if(image.src.match("img/mockups/tab1.png")) {
