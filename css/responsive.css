@@ -57,6 +57,14 @@
         width: 33.33333%;
         float: left;
     }
+    
+    .design-image {
+       
+    }
+    .design-image-padding {
+        padding-left: 0px;
+    }
+    
     #features-tab3 img {
         margin-top: 0;
         margin-right: -30px;
@@ -78,6 +86,16 @@
     }
 }
 @media (max-width: 960px) {
+    
+    .design-image {
+        
+        max-width:200px;
+        height:auto;
+        padding-top: 50px;
+    }
+    .design-image-padding {
+        padding-left: 0px;
+    }
     header .header-dashboard .dashboard {
            max-width: 50%;
             margin: 50px;

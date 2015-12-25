@@ -1034,6 +1034,14 @@ header .container {
     font-size: 30px;
 }
 
+.design-image {
+    max-height:425px;
+    width:auto;
+    padding-top: 50px;
+}
+.design-image-padding {
+    padding-left: 100px;
+}
 
 /*6.5 PRICING*/
 
