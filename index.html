@@ -172,7 +172,7 @@
 
 
                     </div>
-                    <div class="col-lg-6 text-center" onload="preloadImages()">
+                    <div class="col-lg-6 text-center">
                        
 
                         <img style="width:50%;" id="design1" onclick="changeImage()" src="img/view3_exploded_black.png">
@@ -485,23 +485,38 @@
                 // }
 
                 if (image.src.match("img/view3_exploded_black.png")) {
-                    image.src = "img/calf_exploded_black.png";
-                    image.style.paddingTop = "100px";                    
-                    image.style.width = "80%";
-                    progress.innerHTML = "<span class=\"glyphicon glyphicon-one-fine-empty-dot\"></span><span class=\"glyphicon glyphicon-one-fine-full-dot\"></span><span class=\"glyphicon glyphicon-one-fine-empty-dot\"></span>";
-                    description.innerHTML = "Remove a piece and refabricate in minutes.";
+                    var downloadingImage = new Image();
+                    downloadingImage.onload = function(){
+                        image.src = this.src;
+                        image.style.paddingTop = "100px";                    
+                        image.style.width = "80%";
+                        progress.innerHTML = "<span class=\"glyphicon glyphicon-one-fine-empty-dot\"></span><span class=\"glyphicon glyphicon-one-fine-full-dot\"></span><span class=\"glyphicon glyphicon-one-fine-empty-dot\"></span>";
+                        description.innerHTML = "Remove a piece and refabricate in minutes.";
+                    };
+                    downloadingImage.src = "img/calf_exploded_black.png";
                 }
                 else if (image.src.match("img/calf_exploded_black.png")) {
-                    image.src = "img/view2_woleg.png";
-                    image.style.paddingTop = "0px";                   
-                    image.style.width = "50%";
-                    description.innerHTML = "Increase the lifespan of the device.";
-                    progress.innerHTML = "<span class=\"glyphicon glyphicon-one-fine-empty-dot\"></span><span class=\"glyphicon glyphicon-one-fine-empty-dot\"></span><span class=\"glyphicon glyphicon-one-fine-full-dot\"></span>";
+                                    
+                    var downloadingImage = new Image();
+                    downloadingImage.onload = function(){
+                        image.src = this.src;
+                        image.style.paddingTop = "0px";                   
+                        image.style.width = "45%";
+                        description.innerHTML = "Increase the lifespan of the device.";
+                        progress.innerHTML = "<span class=\"glyphicon glyphicon-one-fine-empty-dot\"></span><span class=\"glyphicon glyphicon-one-fine-empty-dot\"></span><span class=\"glyphicon glyphicon-one-fine-full-dot\"></span>";
+                    };
+                    downloadingImage.src = "img/view2_woleg.png";
                 }
                 else {
-                    image.src = "img/view3_exploded_black.png";
-                    description.innerHTML = "A completely modular design.";
-                    progress.innerHTML = "<span class=\"glyphicon glyphicon-one-fine-full-dot\"></span><span class=\"glyphicon glyphicon-one-fine-empty-dot\"></span><span class=\"glyphicon glyphicon-one-fine-empty-dot\"></span>";
+                    var downloadingImage = new Image();
+                    downloadingImage.onload = function(){
+                        image.src = this.src;
+                        description.innerHTML = "A completely modular design.";             
+                        image.style.width = "50%";
+                        progress.innerHTML = "<span class=\"glyphicon glyphicon-one-fine-full-dot\"></span><span class=\"glyphicon glyphicon-one-fine-empty-dot\"></span><span class=\"glyphicon glyphicon-one-fine-empty-dot\"></span>";
+                    };
+                    downloadingImage.src = "img/view3_exploded_black.png";
+
                 }
 
                 // if(image.src.match("img/mockups/tab1.png")) {
@@ -510,15 +525,6 @@
             }
 
            
-            function preloadImages() {
-                //document.getElementById ('product-description').className = 'hidden';
-                 var img = new Image();
-                img.src = "img/view2_woleg.png";
-                img.src = "view3_exploded_black.png";
-                img.src = "calf_exploded_black.png";
-                console.log("preloaded");
-                
-            }
 
             // function switchText() {
             //     document.getElementById("product-description").innerHTML = "Create awesomeness";
