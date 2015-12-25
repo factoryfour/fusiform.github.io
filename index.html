@@ -172,10 +172,11 @@
 
 
                     </div>
-                    <div class="col-lg-6 text-center" onload="document.getElementById ('product-description').className = 'hidden'">
+                    <div class="col-lg-6 text-center" onload="preloadImages()">
                        
 
                         <img style="width:50%;" id="design1" onclick="changeImage()" src="img/view3_exploded_black.png">
+                         
                         </br>
                     <div id="slider-progress">
                         <span class="glyphicon glyphicon-one-fine-full-dot"></span>
@@ -509,7 +510,15 @@
             }
 
            
-
+            function preloadImages() {
+                //document.getElementById ('product-description').className = 'hidden';
+                 var img = new Image();
+                img.src = "img/view2_woleg.png";
+                img.src = "view3_exploded_black.png";
+                img.src = "calf_exploded_black.png";
+                console.log("preloaded");
+                
+            }
 
             // function switchText() {
             //     document.getElementById("product-description").innerHTML = "Create awesomeness";
