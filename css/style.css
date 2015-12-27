@@ -252,6 +252,7 @@ body.modal-open {
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
+    margin-top:10px;
 }
 .primary-button.button-inverse {
     color: #fff;
@@ -282,6 +283,7 @@ body.modal-open {
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
+    margin-top:10px;
 }
 .secondary-button-inverse {
     color: #1080f2;
@@ -616,7 +618,7 @@ header {
     text-align: center;
     overflow: hidden;
     color: #fff;
-        background-color: rgba(30, 38, 49, 0.75)!important;
+    background-color: rgba(30, 38, 49, 0.9)!important;
     background-image: -webkit-linear-gradient(270deg, rgba(51, 51, 51, 0.04) 0%, rgba(255, 255, 255, 0.04) 100%);
     background-image: linear-gradient(180deg, rgba(51, 51, 51, 0.04) 0%, rgba(255, 255, 255, 0.04) 100%);
 }
