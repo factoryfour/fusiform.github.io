@@ -94,6 +94,14 @@
         margin: auto;
     }
     
+    #clients .slider img {
+        display: block;
+        margin: auto;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+        opacity: 1;
+    }
     #team-position {
         text-align: center;
         font-family: Avenir Next LT Pro Regular;
