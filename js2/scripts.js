@@ -3,8 +3,6 @@ var contact_address = "contact@fusiform.co";
 
 (function($) {
 
-  "use strict";
-
   // CHECK IF ELEMENT IS IN VIEW
 
   $.belowthefold = function(element, settings) {

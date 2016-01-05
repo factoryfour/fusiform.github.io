@@ -23,7 +23,7 @@
 			if (i.settings.poster) {
 				t += ' poster="' + i.settings.poster + '" '
 			}
-			t += 'style="display:none;position:fixed;top:0;left:0;bottom:0;right:0;z-index:-100;width:100%;height:100%;">';
+			t += 'style="display:none;position:absolute;opacity:.25;margin-top: 0px;top:0;left:0;bottom:0;right:0;z-index:0;width:100%;height:100%;">';
 			for (var n = 0; n < i.settings.types.length; n++) {
 				t += '<source src="video/shutterstock_v8433409.'+i.settings.types[n]+'" />'
 			}
