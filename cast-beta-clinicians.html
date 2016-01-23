@@ -40,12 +40,12 @@
                 <div class="collapse navbar-collapse" id="main-menu">
                     <!-- MAIN NAV LINKS -->
                     <ul class="nav navbar-nav navbar-right">
-                        <li>
+                        <!-- <li>
                             <a class="page-scroll" href="#services">Sign Up</a>
                         </li>
                         <li>
                             <a class="page-scroll" href="#features">Features</a>
-                        </li>
+                        </li> -->
                         <!-- <li>
                             <a class="page-scroll" href="#" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><strong>Client Login</strong></a>
                         </li>  -->
@@ -89,10 +89,10 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <img src="img/mockups/castlaptop.png">
+                        <img src="img/mockups/castlaptop.png" id="centerpiece-img">
                     </div>
                 </div>
-                <div class="row" style="padding-top:50px">
+                <div class="row" id="step-row">
                     <div class="col-lg-4">
                         <div class="col-lg-2" style="color:#30acc8;font-size:54px;font-family:Avenir">1.</div>
                         <div class="col-lg-10" style="padding-top:10px;font-family:Avenir">
@@ -137,7 +137,7 @@
                     </div>
 
                     <form name="sentMessage" id="contactForm" novalidate>
-                            <center><div style="width:50%;height:auto;" class="row">
+                            <center><div class="row" id="form-row">
                                 <div class="form-input form-group">
                                     <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
                                     <p class="help-block text-danger"></p>

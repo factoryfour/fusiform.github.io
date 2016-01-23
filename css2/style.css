@@ -2128,3 +2128,74 @@ text-transform: uppercase;
     padding-top: 5px;
     padding-bottom: 10px;
 }
+
+/*Personal Changes*/
+
+#centerpiece-img {
+}
+
+#step-row {
+    padding-top:50px;
+}
+
+#form-row {
+    width:50%;
+    height:auto;
+}
+
+/*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+        
+        #centerpiece-img {
+            width:75%;
+        }
+        #step-row {
+            padding-top:50px;
+        }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+        #centerpiece-img {
+            width:75%;
+        }
+        #step-row {
+            padding-top:50px;
+
+        }
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+        #centerpiece-img {
+            width:75%;
+        }
+        #step-row {
+            padding-top:50px;
+
+        }
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+        #centerpiece-img {
+            width:75%;
+        }
+        #step-row {
+            padding-top:50px;
+
+        }
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+        #centerpiece-img {
+            width:75%;
+        }
+        #step-row {
+            padding-top:50px;
+        }
+        
+    }
