@@ -2156,7 +2156,7 @@ text-transform: uppercase;
         }
 
         #button-space {
-            padding-top: 10px;
+            padding-top: 15px;
         }
     }
 
@@ -2169,6 +2169,10 @@ text-transform: uppercase;
             padding-top:50px;
 
         }
+
+        #button-space {
+            padding-top: 15px;
+        }
     }
 
     /* Small Devices, Tablets */
@@ -2179,6 +2183,10 @@ text-transform: uppercase;
         #step-row {
             padding-top:50px;
 
+        }
+
+        #button-space {
+            padding-top: 15px;
         }
     }
 
@@ -2191,6 +2199,10 @@ text-transform: uppercase;
             padding-top:50px;
 
         }
+
+        #button-space {
+            padding-top: 15px;
+        }
     }
 
     /* Large Devices, Wide Screens */
@@ -2200,6 +2212,10 @@ text-transform: uppercase;
         }
         #step-row {
             padding-top:50px;
+        }
+
+        #button-space {
+            padding-top: 15px;
         }
         
     }
