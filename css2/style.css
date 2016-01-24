@@ -2154,6 +2154,10 @@ text-transform: uppercase;
         #step-row {
             padding-top:50px;
         }
+
+        #button-space {
+            padding-top: 5px;
+        }
     }
 
     /* Extra Small Devices, Phones */ 
