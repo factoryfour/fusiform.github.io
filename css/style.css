@@ -1,12 +1,12 @@
 /* =======================================================================
-KeySoft - Software Landing Page 
+KeySoft - Software Landing Page
 ======================================================================= */
 /*
 1. GLOBAL STYLES
 2. TYPOGRAPHY
      2.1 FONTS
      2.2 HEADINGS
-3. LAYOUT     
+3. LAYOUT
      3.1 GENERAL
      3.2 PRELOADER
      3.3 LOGO
@@ -445,7 +445,7 @@ body.modal-open {
 .owl-theme .owl-controls.clickable .owl-page:hover span {
     filter: Alpha(Opacity=100);
     /*IE7 fix*/
-    
+
     opacity: 1;
 }
 .owl-theme .owl-controls .owl-page span.owl-numbers {
@@ -1242,7 +1242,7 @@ header .container {
     display: inline-block;
     margin: 0;
     /*   border: 2px solid #D1D1D1;*/
-    
+
     border-radius: 90px;
     margin: 0 15px;
 }
@@ -1863,7 +1863,7 @@ footer {
     speak: none;
     text-transform: none;
     /* Better Font Rendering */
-    
+
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -2106,7 +2106,7 @@ text-transform: uppercase;
     line-height: 1;
     font-size: 14px;
     width: 100%;
-    
+
 }
 #headerbg {    padding-left: 0;
     float: left;
@@ -2123,12 +2123,24 @@ text-transform: uppercase;
     -moz-transition: 0.2s;
     -ms-transition: 0.2s;
     -o-transition: 0.2s;
-    transition: 0.2s;    
+    transition: 0.2s;
 }
 #headerbg li a.active,
 #headerbg li a.active:hover { color: #1080f2 }
 
 #headerbg li a:hover {color: #000;}
+
+#headerbackground {
+    background-image: url(../img/Annotate-UI.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0.25;
+}
 
 #customizer #colors {
     display: block;
