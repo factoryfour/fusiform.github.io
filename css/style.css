@@ -2131,7 +2131,7 @@ text-transform: uppercase;
 #headerbg li a:hover {color: #000;}
 
 #headerbackground {
-    background-image: url(../img/Annotate-UI.jpg);
+    background-image: url(../img/team-bg.jpg);
     background-attachment: fixed;
     background-size: cover;
     position: absolute;
