@@ -1,356 +1,498 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <meta name="description" content="Fusiform Medical Devices - Better orthotics for those that matter.">
-        <meta name="author" content="Fusiform, Inc." />
-        <!-- SITE TITLE -->
-        <title>Fusiform Medical Devices</title>
-        <!-- STYLESHEETS -->
-        <link href="css/bootstrap.css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <link href="css/style.css" rel="stylesheet">
-        <link href="fonts/avenir-next-lt-pro/fontstyle.css" rel="stylesheet">
-        <link href="css/responsive.css" rel="stylesheet">
-        <!-- DEMO COLORS  -->
-        <link href="#" class="css-color" rel="stylesheet">
 
-        <!-- FAVICON  -->
-        <link rel="icon" href="img/circle-small.ico">
-    </head>
-    <body>
-        <!-- PRELOADER -->
-        <div id="preloader">
-            <img id="loader-logo" src="img/fusiformlogo_white.png">
-            <div class="spinner"></div>
-        </div>
-        <!-- MAIN NAV -->
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-menu">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    </button>
-                    <!-- MAIN NAV LOGO -->
-                    <a class="logo page-scroll" href="#header"><img src="img/fusiformlogo_white.png" class="img-responsive" alt=""></a>
+<head>
+    <meta charset="utf-8">
+    <title>Fusiform Medical Devices</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/themify-icons.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/flexslider.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/ytplayer.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/theme-purple.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div id="preloader">
+        <img id="loader-logo" src="img/fusiform/Brand_MainLogo_CircleText.png">
+        <div class="oSpin"></div>
+    </div>
+    <div class="nav-container">
+        <a id="top"></a>
+        <nav class="absolute transparent">
+            <div class="nav-bar">
+                <div class="module left">
+                    <a href="fusiform_index.html">
+                        <img class="logo logo-light" alt="Fusiform" src="img/fusiform/Brand_AltLogo_CircleText.png" />
+                        <img class="logo logo-dark" alt="Fusiform" src="img/fusiform/Brand_MainLogo_CircleText.png" />
+                    </a>
                 </div>
-                <div class="collapse navbar-collapse" id="main-menu">
-                    <!-- MAIN NAV LINKS -->
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a class="page-scroll" href="#vision">Vision</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#features">CAST</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="team.html">Team</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                    <!-- END MAIN NAV LINKS -->
+                <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
+                    <i class="ti-menu"></i>
                 </div>
-            </div>
+                <div class="module-group right">
+                    <div class="module left">
+                        <ul class="menu">
+                            <li>
+                                <a href="fusiform_index.html">
+                                        Home
+                                    </a>
+
+                            </li>
+                            <li>
+                                <a href="fusiform_cast.html">
+                                        CAST
+                                    </a>
+
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="#">
+                                        About
+                                    </a>
+                                <ul class="mega-menu">
+                                    <li>
+                                        <ul>
+                                            <li>
+                                                <a href="fusiform_team.html">Team &amp; Partners</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="fusiform_contact.html">Contact</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
         </nav>
-        <!-- END MAIN NAV -->
-        <!-- HEADER -->
-        <header id="header">
-            <div class="full-height container">
-                <div class="intro-text">
-                    <h1 class="intro-lead-in">Rethinking how orthotics are made.</h1>
+        </div>
 
-                </div>
-                <div class="down-arrow-container">
-                    <div class="down-arrow">
-                        <a class="page-scroll" href="#vision">
-                            <span>Learn More<br/></span>
-                            <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div id="particles-js"></div>
-        </header>
-        <!-- END HEADER -->
-        <!-- VISION -->
-        <section id="vision">
-            <div class="container">
-                <div class="row">
-                    <!-- VISION HEADING -->
-                    <div class="col-lg-12">
-                        <div class="col-lg-6 col-md-6">
-                            <h2 class="section-heading">Vision</h2>
-                            <p class="section-subheading">
-                                7.3 million people will use orthotic devices by 2020. People still wait nearly a month to receive a device only to trash it after 6 months.
-                            </p>
-                            <p class="section-subheading">
-                                Orthotics should give people mobility and confidence, not slow them down. So we're changing it up.
-                            </p>
-                            <p class="section-subheading">
-                                Our technology will get you an orthotic in hours, not weeks, making sure you have your best foot forward sooner than later.
-                            </p>
+        <div class="main-container">
+            <section class="fullscreen image-slider parallax  cover slider-all-controls controls-inside">
+                <ul class="slides">
+                    <li class="overlay image-bg bg-light">
+                        <div class="background-image-holder">
+                            <img alt="image" class="background-image" src="img/jwest.jpg" />
                         </div>
-                        <div class="col-lg-6 col-md-6">
-                            <img src="img/vision.jpg" class="img-responsive" alt="">
-                        </div>
-                    </div>
-                    <!-- END VISION HEADING -->
-                </div>
-            </div>
-        </section>
-        <!-- END VISION -->
-        <!-- CAST -->
-        <section id="features" class="gray-bg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <!-- <h2 class="section-heading">FusiformCAST</h2> -->
-                        <img src="img/Brand_CASTLogo_Dark.png" class="logo" alt="" style="width:375px; height:auto">
-                        <p class="section-subheading text-center">
-                            Getting everybody on the same page gets the job done faster and better. Introducing CAST, a versatile and powerful digital platform to make custom fabrication efficient and hassle-free.
-                        </p>
-                        <p class="spacer-md">
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <ul class="features-list">
-                            <li><strong>Time-Efficient:</strong> Spend 10 minutes scanning a patient instead of an hour casting with plaster.</li>
-                            <li><strong>Collaborative:</strong> Clinics and central fabricators view and annotate the 3D models together, live-messaging and collaborating to get the perfect device, every time.</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6">
-                        <img class="features-img" src="img/scan_ui.jpg" alt="FusiformCAST"/>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="spacer-md"></div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 col-md-push-6">
-                        <ul class="features-list">
-                            <li><strong>Completely Digital Ordering:</strong> Clinics simply upload a standard STL/OBJ file, choose their favorite central fabricator and type out a custom digital form for the device they want.</li>
-                            <li><strong>Patient &amp; Order Tracking:</strong> Never keep a customer waiting. View status updates on every patient and order to make sure you are getting the device to a patient on time.</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6 col-md-pull-6">
-                        <img class="features-img" src="img/order_ui.jpg" alt="FusiformCAST"/>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="cast-learn-more">
-            <h5>Learn More about CAST</h5>
-            <div>
-                <!--<button class="btn btn-xl">Clinicians</button>
-                <button class="btn btn-xl">Vendors</button>-->
-                <form action="trial.html">
-                    <button type="submit" class="btn btn-xl">Sign Up for a Trial</button>
-                </form>
-            </div>
-        </section>
-        <!-- END CAST -->
-        <!-- CONTACT -->
-        <section id="contact">
-            <div class="contact-map-container">
-                <!-- GOOGLE MAP-->
-                <div style = "pointer-events:none;"id="map"></div>
-            </div>
-            <div class="container">
-                <div class="contact-form-container">
-                    <!-- CONTACT HEADING -->
-                    <div class="row">
-                        <h2 class="section-heading">Contact</h2>
-                        <p style="font-family:Avenir Next LT Pro Regular;" class="section-subheading ">Feel free to talk to us and we will get back to you within a day.</p>
-                    </div>
-                    <!-- END CONTACT HEADING -->
-                    <div class="row">
-                        <!-- CONTACT FORM -->
-                        <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="container v-align-transform">
                             <div class="row">
-                                <div class="form-group">
-                                    <input style="font-family:Avenir;" type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group pull-right">
-                                    <input style="font-family:Avenir;" type="email" class="form-control" placeholder="Email" id="email" required data-validation-required-message="Please enter your email address.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group form-textarea">
-                                    <textarea style="font-family:Avenir;" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="clearfix"></div>
-                                <div class="text-center">
-                                    <div id="success"></div>
-                                    <button type="submit" class="btn btn-xl">Submit</button>
+                                <div class="col-sm-12">
+                                    <h1 class="bold mb0 hideOnMobile" style="color:white;font-family:Avenir">Rethinking the </br>Orthopedic Industry</h1>
+                                    <h3 class="bold mb0 showOnMobile" style="color:white;font-family:Avenir">Rethinking the</h3>
+                                    <h3 class="bold mb0 showOnMobile" style="color:white;font-family:Avenir">Orthopedic </h3>
+                                    <h3 class="bold mb0 showOnMobile" style="color:white;font-family:Avenir">Industry</h3>
+                                    <br>
+                                    <h4 class="mb0 hideOnMobile" style="color:white;font-family:Avenir">Dr. James E. West invented the modern microphone </br>in Bell Laboratories in 1962. He holds over 60 U.S. </br>patents and more than 200 foreign patents. Working </br>with Dr. West, we are developing technology to </br>make sure his orthotics never slow him down.</h4>
+                                    <h4 class="mb0 showOnMobile" style="padding-top:50px;color:white;font-family:Avenir">Dr. James E. West  </h4>
+                                    <h4 class="mb0 showOnMobile" style="color:white;font-family:Avenir">invented the modern  </h4>
+                                    <h4 class="mb0 showOnMobile" style="color:white;font-family:Avenir">microphone in 1962. Our </h4>
+                                    <h4 class="mb0 showOnMobile" style="color:white;font-family:Avenir">technology will make sure his </h4>
+                                    <h4 class="mb0 showOnMobile" style="padding-bottom:20px;color:white;font-family:Avenir">orthotics never slow him down.</h4>
+                                    <br>
                                 </div>
                             </div>
-                        </form>
-                        <!-- END CONTACT FORM -->
+                        </div>
+
+                    </li>
+                    <li style="background-color:#9126FF" ;>
+
+                        <div class="container v-align-transform">
+                            <div class="row">
+                                <div class="col-sm-offset-1 text-center col-sm-10">
+                                    <!-- <h1 class="mb40 mb-xs-16 medium">Fusiform Cast</h1> -->
+                                    <img alt="image" class="logo" src="img/fusiform/Brand_FusiformCAST_White.png" style="width:450px; margin-top:20px;" />
+
+                                    <h5 class="uppercase mb16" style="margin-top:15px">A new, effortless way to manage your O &amp; P  business.</h5>
+                                    <!-- <p class="lead mb40">
+                                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                                    </p> -->
+                                    <div class="row">
+                                        <img alt="image" src="img/fusiform/castlayout.png" style="width:80%" />
+                                    </div>
+                                    <a class="btn btn-md btn-white" style="color:white; margin-top:20px;" href="fusiform_cast.html">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h6 class="uppercase">Fusiform's Mission</h6>
+                            <hr class=" mb-xs-24">
+                        </div>
+                    </div>
+                    <!--end of row-->
+                    <div class="row">
+                        <div class="col-md-10">
+                            <h2 class="bold">Exponentially faster device delivery, <br>through collaborative processes.</h2>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                    <div class="row mb-xs-0">
+                        <div class="col-md-9 col-sm-8">
+                            <p class="lead">
+                                The assessment and manufacturing processes of the orthopedic device industry haven't progressed in decades. People wait a month to receive an excessively expensive device, only to outgrow it 6 months later.
+                                <br>
+                                <br> These devices should give people mobility and confidence, not slow them down. So we're changing it up.
+                                <br>
+                                <br> Our technology will get you a device in hours, not weeks, making sure you have your best foot forward sooner than later.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="bg-primary">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <img alt="image" class="logo mb20" src="img/fusiform/Brand_FusiformCAST_White.png" style="width:400px; margin-left:8px" ;/>
+                            <h3 class="lead mb40" style="padding-left:16px">
+                              A versatile and powerful platform to make your O &amp; P business efficient and hassle-free.
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div id = "render-container"class="col-md-4 mobileThreeDisable " style="margin:0 auto;">
+                            <div id="canvas-container" style="height: 350px;margin:0 auto;padding-left:10px;"></div>
+                            <!-- <img alt="Screenshot" style="display:block;max-height:300;margin:0 auto;"src="img/fusiform/leg.png" /> -->
+                            <div class="text-center">
+                                Click and drag to move the model.
+                            </div>
+                        </div>
+                        <div id = "cast-information" class="col-md-12">
+                            <div style="padding-top:30px;"class="row v-align-children">
+                                <div class="col-md-6" style="">
+                                    <div class="feature feature-3">
+                                        <div class="left">
+                                            <i class="ti-timer icon-sm"></i>
+                                        </div>
+                                        <div class="right">
+                                            <h5 class="bold uppercase mb16">Lightning Fast Order Process</h5>
+                                            <p>
+                                                Put an end to long casting hours, hand-writing forms, and shipping plaster. Upload a 10-minute 3D scan and fill out a digital order form instead.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="feature feature-3">
+                                        <div class="left">
+                                            <i class="ti-headphone-alt icon-sm"></i>
+                                        </div>
+                                        <div class="right">
+                                            <h5 class="bold uppercase mb16">Incredible Customer Service</h5>
+                                            <p>
+                                                Conduct your business efficiently and effectively, while never keeping a customer waiting. No more phone-chase, talk to the person in charge instantly.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="row v-align-children">
+                                <div class="col-md-6" style="" ;>
+                                    <div class="feature feature-3">
+                                        <div class="left">
+                                            <i class="ti-panel icon-sm"></i>
+                                        </div>
+                                        <div class="right">
+                                            <h5 class="bold uppercase mb16">Powerful Patient/Order Tracking</h5>
+                                            <p>
+                                                Track patients and orders, flagging them with statuses and receiving notifications with updates on any case.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="feature feature-3">
+                                        <div class="left">
+                                            <i class="ti-comments icon-sm"></i>
+                                        </div>
+                                        <div class="right">
+                                            <h5 class="bold uppercase mb16">Open Collaboration</h5>
+                                            <p>
+                                                Making mistakes costs time and money. Always stay on the same page, whether you are a clinic and fabricator, through our open collaboration system.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="col-md-6">
+                                    <div class="feature feature-3">
+                                        <div class="left">
+                                            <i class="ti-settings icon-sm"></i>
+                                        </div>
+                                        <div class="right">
+                                            <h5 class="bold uppercase mb16">Custom Solutions</h5>
+                                            <p>
+                                                Make CAST yours, whether it is using custom order forms for your products, or modifying your customer experience in your own way.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> -->
+
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+                    <div class="row" style="text-align:center;margin-top:50px;margin-bottom:-20px;">
+                    <a class="btn btn-md btn-white"  href="fusiform_cast.html">Learn More</a>
+                    </div>
+            </section>
+
+
+            <!-- START AOPA EVENT ANNOUNCEMENT -->
+
+            <section class="pt120 pb120 image-bg overlay">
+                <div class="background-image-holder">
+                    <img alt="Background" class="background-image" src="img/fusiform/mapdata.png" />
+                </div>
+                <div class="container">
+                    <div class="row v-align-children">
+                        <div class="col-sm-8 mb-xs-80">
+                            <h2 class="mb16 bold">Fusiform presenting FusiformCAST
+                                <br class="hidden-sm" /> at AOPA National Assembly 2016</h2>
+                            <h6 class="uppercase">Visit our booth and attend our product presentation.</h6>
+                            <h6 class="uppercase mb32">September 8-11 | Boston, MA</h6>
+                            <a class="btn btn-lg mb0" href="fusiform_cast.html">Learn More About Cast</a>
+                        </div>
+                        <div class="col-sm-4 text-center text-left-xs">
+                            <img src="img/fusiform/aopapic copy.png" />
+                        </div>
+                        <!--end of modal video-->
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- END CONTACT -->
-        <!-- FOOTER -->
-        <footer>
+                <!--end of row-->
+                <!--end of container-->
+            </section>
+
+            <!-- START PRESS SECTION -->
+
+            <section class="pt120 pb120 pt-xs-80 pb-xs-80">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <h3 class="mb64 mb-xs-32">Press</h3>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                    <div class="row masonry">
+
+                        <div class="masonry-item col-md-4 col-sm-6">
+                            <div class="feature bg-secondary p32 pt40 pb40 mb0">
+                                <span class="fade-1-4 mb16 display-block">May 18, 2016</span>
+                                <h4 class="mb120">Fusiform joins NY-based Human Condition Labs</h4>
+                                <div class="modal-container">
+                                    <a href="#" class="mb0 right btn-modal">
+                                        <h6 class="uppercase mb0 color-primary fade-on-hover">Read Story <i class="ti-arrow-right"></i></h6>
+                                    </a>
+                                    <div class="foundry_modal">
+                                        <h4>Fusiform joins NY-based Human Condition Labs</h4>
+                                        <span class="fade-1-4 mb16 display-block">May 18, 2016</span>
+                                        <hr>
+                                        <p>
+                                            <a href="http://www.humanconditionlabs.com/#intro" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><span class="color-primary">Human Condition Labs</span></a>                                            is an NY-based applied research facility that leverages technology to create systems and solutions with large-scale social impact. With a diverse and cross-disciplinary team -- encompassing technology, science,
+                                            business strategy, media, design, and engineering expertise -- HC Labs bridges industries and partners with a broad array of innovation leaders, such as Autodesk Research and Microsoft. Using a 90-day methodology,
+                                            HC Labs has applied this process of program management to a range of projects: providing cardiologists with a simulation and understanding of heart failure, partnering with nonprofits to limit the burden of
+                                            outreach, and crowdsourcing insights on a redesign of the NYC taxi.
+                                        </p>
+                                        <p>
+                                            Peter Raymond, CEO of Human Condition Global and Founder of HC Labs, serves on Fusiform's Board of Advisors. In conjunction with HC Labs, Fusiform presented it's technology at Exponential Manufacturing 2016, held by Singularity University. Following this
+                                            presentation, Fusiform has joined HC Labs, collaborating on design and commercialization of our products.
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- STILL NEED TO UPDATE -->
+                        <div class="masonry-item col-md-4 col-sm-6">
+                            <div class="feature bg-secondary p32 pt40 pb40 mb0">
+                                <span class="fade-1-4 mb16 display-block">May 12, 2016</span>
+                                <h4 class="mb120">Fusiform at Exponential Manufacturing Conference, held by Singularity University</h4>
+                                <div class="modal-container">
+                                    <a href="#" class="mb0 right btn-modal">
+                                        <h6 class="uppercase mb0 color-primary fade-on-hover">Read Story <i class="ti-arrow-right"></i></h6>
+                                    </a>
+                                    <div class="foundry_modal">
+                                        <h4>Fusiform at Exponential Manufacturing Conference, held by Singularity University</h4>
+                                        <span class="fade-1-4 mb16 display-block">May 12, 2016</span>
+                                        <hr>
+                                        <p>
+                                            <a href="https://exponential.singularityu.org/manufacturing/" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><span class="color-primary">Exponential Manufacturing</span></a>                                            convened a select group of 400 leading executives, investors, and entrepreneurs from around the globe in Boston to explore how exponential technologies are changing the way humanity designs, makes, produces,
+                                            moves, sells, and consumes the material world. The Exponential Conference Series is held by
+                                            <a href="http://singularityu.org/" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><span class="color-primary">Singularity University</span></a>, a benefit
+                                            corporation that provides educational programs, innovative partnerships and a startup accelerator to help individuals, businesses, institutions, investors, NGOs and governments understand cutting-edge technologies,
+                                            and how to utilize these technologies to positively impact billions of people.
+                                        </p>
+                                        <p>
+                                            Fusiform was invited, in conjunction with Human Condition Labs, to present at the Exponential Manufacturing Innovation Lab.
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="masonry-item col-md-4 col-sm-6">
+                            <div class="feature bg-secondary p32 pt40 pb40 mb0">
+                                <span class="fade-1-4 mb16 display-block">May 8, 2016</span>
+                                <h4 class="mb120">Mark Hopkins, CEO of Dankmeyer, joins Board of Advisors</h4>
+
+                                <div class="modal-container">
+                                    <a href="#" class="mb0 right btn-modal">
+                                        <h6 class="uppercase mb0 color-primary fade-on-hover">Read Story <i class="ti-arrow-right"></i></h6>
+                                    </a>
+                                    <div class="foundry_modal">
+                                        <h4>Mark Hopkins, CEO of Dankmeyer, joins Board of Advisors</h4>
+                                        <span class="fade-1-4 mb16 display-block">May 8, 2016</span>
+                                        <hr>
+                                        <p>
+                                            <a href="http://www.dankmeyer.com/" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><span class="color-primary">Dankmeyer Prosthetics &amp; Orthotics</span></a>                                            has been a crucial partner to Fusiform for over a year, playing a formative role in the development of our vision. Mark Hopkins, CEO and President of Dankmeyer, has advised us on our product design and capabilities,
+                                            helping us understand how our solution can make the strongest impact to the O&amp;P world.
+                                        </p>
+                                        <p>
+                                            We welcome Mark Hopkins to our Board of Advisors, and are excited to have him share our vision and see it realized together.
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+
+            <!------START SUBSCRIBE------->
+            <section class="pt0 pb0">
+                <div class="col-sm-12 text-center p0">
+                    <div class="pt80 pb80 bg-secondary overflow-hidden">
+                        <h4 class="mb40 mb-xs-24">Subscribe For Updates</h4>
+                        <div class="col-sm-6 col-sm-offset-3">
+                            <form class="halves form-newsletter" data-success="Thanks for subscribing! You will receive an email confirmation shortly." data-error="Please fill all fields correctly.">
+                                <input type="text" name="email" class="mb0 validate-email validate-required  signup-email-field" placeholder="Email Address" />
+                                <button type="submit" class="mb0">Subscribe</button>
+
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!------END SUBSCRIBE------->
+
+            <!------START CONTACT------->
+            <a id="contact"></a>
+            <section class="pt120 pb120 image-bg">
+                <div class="map-canvas map-opacity" data-map-zoom="6" data-address="baltimore;new york" data-maps-api-key="AIzaSyCfo_V3gmpPm1WzJEC9p_sRbgvyVbiO83M" data-maps-api-key-2="AIzaSyAVsRr4i3ovR45biSx0DoWRswL1kfdO9ZU"></div>
+                <div class="container contact-tint">
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-offset-6 overflow-hidden text-right  contact-margin">
+                            <h3 class="mb64 mb-xs-32"> Get In Touch</h3>
+                            <h4 class="mb16">contact@fusiform.co</h4>
+                            <ul class="list-inline social-list mb40 mb-xs-24">
+
+                            </ul>
+                            <div class="col-sm-6 p0">
+                                <h6 class="uppercase mb0">HQ - Baltimore</h6>
+                                <p>
+                                    10 E North Avenue
+                                    <br /> Baltimore, MD 21218
+                                </p>
+                            </div>
+                            <div class="col-sm-6 p0">
+                                <h6 class="uppercase mb0">Labs - New York</h6>
+                                <p>
+                                    61 Broad Street, 31st Floor
+                                    <br /> New York, NY 10006
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+        </div>
+        <footer class="footer-1 bg-dark">
             <div class="container">
                 <div class="row">
-                    <!-- UPPER FOOTER -->
-                    <div class="upper-footer">
-                        <div class="pull-left">
-                            <a class="logo page-scroll" href="#page-top"><img src="img/fusiformlogo_white.png" class="img-responsive" alt=""></a>
-                            <p>Fusiform is a software company seeking to revolutionize the fabrication of orthotic devices to make them better and faster.</p>
-                        </div>
-                        <div class="pull-right">
-                            <ul class="footer-nav">
-                                <li class="">
-                                    <a class="page-scroll" href="#vision">Vision</a>
+                    <div class="col-md-4 col-sm-6">
+                        <img alt="Logo" class="mb20" src="img/fusiform/Brand_AltLogo_CircleText.png" style="width:200px" />
+                        <p>Fusiform is developing novel technology processes in the orthopedic device industry to exponentially decrease device delivery time and improve patient accessibility.
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="widget">
+                            <h6 class="title">Quick Links</h6>
+                            <hr>
+                            <ul class="link-list recent-posts">
+                                <li>
+                                    <a href="fusiform_cast.html">CAST</a>
                                 </li>
-                                <li class="">
-                                    <a class="page-scroll" href="#features">CAST</a>
+                                <li>
+                                    <a href="fusiform_team.html">Team & Partners</a>
                                 </li>
-                                <li class="active">
-                                    <a class="" href="team.html">Team</a>
-                                </li>
-                                <li class="active">
-                                    <a class="page-scroll" href="#contact">Contact</a>
-                                </li>
-                            </ul>
-                            <ul class="footer-secondary-nav">
-                                <li class="">
-                                    <a class="page-scroll" href="mailto:contact@fusiform.co"><span class="fa fa-envelope"></span>contact@fusiform.co</a>
-                                </li>
-                                <li class="">
-                                    <a class="page-scroll" href="#contact"><span class="fa fa-map-marker"></span>Baltimore, Maryland</a>
+                                <li>
+                                    <a href="fusiform_contact.html">Contact</a>
                                 </li>
                             </ul>
                         </div>
+                        <!--end of widget-->
                     </div>
-                    <!-- END UPPER FOOTER -->
-                    <!-- LOWER FOOTER -->
-                    <div class="lower-footer">
-                        <div class="pull-left">
-                            <span>&copy; Fusiform, Inc. 2016</span>
-
-                            <a href="http://madewithloveinbaltimore.org">Made with <b style="color: red">&hearts; </b>in Baltimore</a>
-
-                        </div>
-
+                </div>
+                <!--end of row-->
+                <div class="row">
+                    <div class="col-sm-6">
+                        <span class="sub">&copy; Fusiform, Inc. 2016 | <a href="http://madewithloveinbaltimore.org">Made with <b style="color: red">&hearts; </b>in Baltimore</a><br /></span>
                     </div>
-                    <!-- END LOWER FOOTER -->
                 </div>
             </div>
+            <!--end of container-->
+            <a class="btn btn-sm fade-half back-to-top inner-link" href="#top">Top</a>
         </footer>
-        <!-- END FOOTER -->
-        <!-- SCRIPTS -->
-        <!-- jQuery & Bootstrap -->
-<!--
-        <script>
-            function changeImage() {
-                var image = document.getElementById('design1');
-                var progress = document.getElementById('slider-progress');
-                var description = document.getElementById("product-description");
-                // if (image.src.match("img/orthotic_graphic.png")) {
-                //     image.src = "img/mockups/clientside.png";
-                // } else {
-                //     image.src = "img/mockups/tab1.png";
-                // }
-
-                if (image.src.match("img/view3_exploded_black.png")) {
-                    var downloadingImage = new Image();
-                    downloadingImage.onload = function(){
-                        image.src = this.src;
-                        image.style.opacity = "1";
-                        progress.innerHTML = "<span class=\"glyphicon glyphicon-one-fine-empty-dot\"></span>";
-                        progress.innerHTML += "<span class=\"glyphicon glyphicon-one-fine-full-dot\"></span>";
-                        progress.innerHTML += "<span class=\"glyphicon glyphicon-one-fine-empty-dot\"></span>";
-                        description.innerHTML = "Remove a piece and refabricate in minutes.";
-                    };
-                    image.style.opacity = ".3";
-                    downloadingImage.src = "img/calf_exploded_black.png";
-                }
-                else if (image.src.match("img/calf_exploded_black.png")) {
-
-                    var downloadingImage = new Image();
-                    downloadingImage.onload = function(){
-                        image.src = this.src;
-                        image.style.opacity = "1";
-                        description.innerHTML = "Increase the lifespan of the device.";
-                        progress.innerHTML = "<span class=\"glyphicon glyphicon-one-fine-empty-dot\"></span>";
-                        progress.innerHTML += "<span class=\"glyphicon glyphicon-one-fine-empty-dot\"></span>";
-                        progress.innerHTML += "<span class=\"glyphicon glyphicon-one-fine-full-dot\"></span>";
-                    };
-                    image.style.opacity = ".3";
-                    downloadingImage.src = "img/view2_woleg.png";
-                }
-                else {
-                    var downloadingImage = new Image();
-                    downloadingImage.onload = function(){
-                        image.src = this.src;
-                        image.style.opacity = "1";
-                        description.innerHTML = "A completely modular design.";
-
-                        progress.innerHTML = "<span class=\"glyphicon glyphicon-one-fine-full-dot\"></span>";
-                        progress.innerHTML += "<span class=\"glyphicon glyphicon-one-fine-empty-dot\"></span>";
-                        progress.innerHTML += "<span class=\"glyphicon glyphicon-one-fine-empty-dot\"></span>";
-                    };
-                    image.style.opacity = ".3";
-                    downloadingImage.src = "img/view3_exploded_black.png";
-
-                }
-            }
-
-
-
-            // function switchText() {
-            //     document.getElementById("product-description").innerHTML = "Create awesomeness";
-
-
-            // }
-        </script>
--->
-
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-          ga('create', 'UA-71698518-1', 'auto');
-          ga('send', 'pageview');
-
-        </script>
-        <script src="js/jquery.js"></script>
-        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <!-- smoothscroll  -->
-        <!-- // <script src="js/smoothscroll.js"></script> -->
-        <!-- SCROLL -->
-        <script src="js/jquery.scrollgress.min.js"></script>
-        <script src="js/jquery.scrolly.min.js"></script>
-        <!-- piechart  -->
-        <script src="js/jquery.easytabs.min.js"></script>
-        <!-- tabs  -->
-        <script src="js/piechart.js"></script>
-        <!-- video header -->
-        <script src="js/video.js"></script>
-        <!-- sliders -->
-        <script src="js/owl.carousel.min.js"></script>
-        <!-- contact form -->
-        <script src="js/jqBootstrapValidation.js"></script>
-        <script src="js/classie.js"></script>
-        <!-- google map -->
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-        <!-- custom script -->
-        <script src="js/scripts.min.js"></script>
-    </body>
+        <script src="js/flickr.js"></script>
+        <script src="js/flexslider.min.js"></script>
+        <script src="js/lightbox.min.js"></script>
+        <script src="js/masonry.min.js"></script>
+        <script src="js/twitterfetcher.min.js"></script>
+        <script src="js/spectragram.min.js"></script>
+        <script src="js/ytplayer.min.js"></script>
+        <script src="js/countdown.min.js"></script>
+        <script src="js/smooth-scroll.min.js"></script>
+        <script src="js/parallax.js"></script>
+        <script src="js/scripts.js"></script>
+</body>
+
 </html>
