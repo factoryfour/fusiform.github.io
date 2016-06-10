@@ -207,12 +207,6 @@
 }
 
 
-@media (min-width:1000px) {
-    .largeBobTina{
-        margin-top:-200px;
-    }
-};
-
 /* Dont put anything below here*/
 .oSpin {
     opacity: 0.9;
