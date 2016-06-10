@@ -369,7 +369,7 @@ $(document).ready(function() {
             vidURL = "https://www.youtube.com/embed/" + videoID + "?showinfo=0&autoplay=" + autoplay;
             $(this).attr('data-src', vidURL);
         } else {
-            console.log('Only Vimeo and Youtube videos are supported at this time');
+            // console.log('Only Vimeo and Youtube videos are supported at this time');
         }
     });
 
@@ -602,7 +602,7 @@ $(document).ready(function() {
 
     $('.tabs li').click(function() {
         $(this).closest('.tabs').find('li').removeClass('active');
-        console.log($(this).closest('.tabs').find('li'))
+        // console.log($(this).closest('.tabs').find('li'))
 
         $(this).addClass('active');
 
@@ -713,7 +713,7 @@ $(document).ready(function() {
         // Do this if there is an iframe, and it contains usable Mail Chimp / Campaign Monitor iframe embed code
         if ((iFrame.length) && (typeof iFrame.attr('srcdoc') !== "undefined") && (iFrame.attr('srcdoc') !== "")) {
 
-            console.log('Mail list form signup detected.');
+            // console.log('Mail list form signup detected.');
             if (typeof originalError !== typeof undefined && originalError !== false) {
                 formError.html(originalError);
             }
@@ -810,7 +810,7 @@ $(document).ready(function() {
             }
         } else {
             // If no iframe detected then this is treated as an email form instead.
-            console.log('Send email form detected.');
+            // console.log('Send email form detected.');
             if (typeof originalError !== typeof undefined && originalError !== false) {
                 formError.text(originalError);
             }
@@ -836,7 +836,7 @@ $(document).ready(function() {
                 serialized.forEach(function(value){
                     object[value['name']] = value['value'];
                 });
-                console.log(object);
+                // console.log(object);
                 jQuery.ajax({
                     type: "POST",
                     url: "https://formspree.io/contact@fusiform.co",
@@ -846,7 +846,7 @@ $(document).ready(function() {
                     success: function(response) {
                         // Swiftmailer always sends back a number representing numner of emails sent.
                         // If this is numeric (not Swift Mailer error text) AND greater than 0 then show success message.
-                        console.log(response);
+                        // console.log(response);
                         submitButton.html(submitButton.attr('data-text')).removeAttr('disabled');
 
                         if (response.success) {
@@ -965,7 +965,8 @@ $(document).ready(function() {
         // Check if mobile. Diable parallax and do not render if not on desktop.
     if ((/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
         $('section').removeClass('parallax');
-        console.log("On Mobile");
+        // console.log("On Mobile");
+
     } else {
 
     }
@@ -1057,7 +1058,7 @@ $(window).load(function() {
 
 
         } else {
-            console.log("not going to load;");
+            // console.log("not going to load;");
         }
     }
     // Initialize twitter feed
@@ -1393,7 +1394,7 @@ window.initializeMaps = function() {
 
                             });
                         } else {
-                            console.log('There was a problem geocoding the address.');
+                            // console.log('There was a problem geocoding the address.');
                         }
                     });
                 } else if (latitude != undefined && latitude != "" && latitude != false && longitude != undefined && longitude != "" && longitude != false) {
