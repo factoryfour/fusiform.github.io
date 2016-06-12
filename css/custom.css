@@ -129,82 +129,200 @@
     }
 }
 
-.checkbox-option,
-.radio-option {
-  display: inline-block;
-  width: 50px;
-  height: 25px;
-  border-radius: 25px;
-  border: 1px solid #1BA8DD;
-  cursor: pointer;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  margin-bottom: 24px;
-}
-.checkbox-option .inner,
-.radio-option .inner {
-  width: 19px;
-  height: 19px;
-  border-radius: 50%;
-  background: rgba(0, 0, 0, 0);
-  border: 1px solid #1BA8DD;
-  position: relative;
-  top: 2px;
-  left: 2px;
-  display: inline-block;
-  transition: all 0.2s ease;
-  -webkit-transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-}
-.checkbox-option.checked .inner {
-  transform: translate3d(25px, 0, 0);
-  -webkit-transform: translate3d(25px, 0, 0);
-  -moz-transform: translate3d(25px, 0, 0);
-  background: #1BA8DD;
-}
-.checkbox-option input {
-  width: 0;
-  height: 0;
-  opacity: 0;
-  overflow: hidden;
-}
-.radio-option {
-  width: 25px;
-  height: 25px;
-  text-align: left;
-}
-.radio-option:nth-of-type(n+2) {
-  margin-left: 24px;
-}
-.radio-option input {
-  width: 0;
-  height: 0;
-  opacity: 0;
-  overflow: hidden;
-}
-.radio-option .inner {
-  border: none;
-  width: 19px;
-  height: 19px;
-  left: 2px;
-  transform: scale(0);
-  -webkit-transform: scale(0);
-}
-.radio-option + span {
-  display: inline-block;
-  line-height: 25px;
-}
-.radio-option.checked .inner {
-  transform: scale(1);
-  -webkit-transform: scale(1);
-}
-.radio-option.checked .inner {
-  background: blue;
-}
+/* Blue Checkbox  */
+    .checkbox-option,
+    .radio-option {
+      display: inline-block;
+      width: 50px;
+      height: 25px;
+      border-radius: 25px;
+      border: 1px solid #1BA8DD;
+      cursor: pointer;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      margin-bottom: 24px;
+    }
+    .checkbox-option .inner,
+    .radio-option .inner {
+      width: 19px;
+      height: 19px;
+      border-radius: 50%;
+      background: rgba(0, 0, 0, 0);
+      border: 1px solid #1BA8DD;
+      position: relative;
+      top: 2px;
+      left: 2px;
+      display: inline-block;
+      transition: all 0.2s ease;
+      -webkit-transition: all 0.2s ease;
+      -moz-transition: all 0.2s ease;
+    }
+    .checkbox-option.checked .inner {
+      transform: translate3d(25px, 0, 0);
+      -webkit-transform: translate3d(25px, 0, 0);
+      -moz-transform: translate3d(25px, 0, 0);
+      background: #1BA8DD;
+    }
+    .checkbox-option input {
+      width: 0;
+      height: 0;
+      opacity: 0;
+      overflow: hidden;
+    }
+    .radio-option {
+      width: 25px;
+      height: 25px;
+      text-align: left;
+    }
+    .radio-option:nth-of-type(n+2) {
+      margin-left: 24px;
+    }
+    .radio-option input {
+      width: 0;
+      height: 0;
+      opacity: 0;
+      overflow: hidden;
+    }
+    .radio-option .inner {
+      border: none;
+      width: 19px;
+      height: 19px;
+      left: 2px;
+      transform: scale(0);
+      -webkit-transform: scale(0);
+    }
+    .radio-option + span {
+      display: inline-block;
+      line-height: 25px;
+    }
+    .radio-option.checked .inner {
+      transform: scale(1);
+      -webkit-transform: scale(1);
+    }
+    .radio-option.checked .inner {
+      background: #1BA8DD;
+    }
+
+
+/* Blue Button */
+    .btn-blue {
+      font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      border: 2px solid #1BA8DD;
+      padding: 0 26px;
+      height: 40px;
+      min-width: 150px;
+      line-height: 36px;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      border-radius: 0;
+      color: #1BA8DD;
+      text-align: center;
+      transition: all 0.3s ease;
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      margin-right: 8px;
+      margin-bottom: 24px;
+    }
+
+    .btn-blue:hover {
+      background: #1BA8DD;
+      color: #fff;
+      border-color:#1BA8DD;
+    }
+
+/* Blue Button Tabs */
+
+    .button-tabs-blue .tabs {
+      display: inline-block;
+      overflow: hidden;
+    }
+    .button-tabs-blue .tabs > li {
+      margin-bottom: 8px;
+      float: left;
+    }
+    .button-tabs-blue .tabs > li:last-child {
+      margin-right: 0;
+    }
+    .button-tabs-blue .tab-title {
+      padding: 13px;
+      display: inline-block;
+      text-align: center;
+      min-width: 150px;
+      background: #f5f5f5;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      transition: all 0.3s ease;
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+    }
+    .bg-secondary .button-tabs-blue .tab-title {
+      background: #eee;
+    }
+    .button-tabs-blue .tab-title span {
+      font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      line-height: 24px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: 700;
+    }
+    .button-tabs-blue .active .tab-title {
+      background: #1BA8DD;
+      color: #fff;
+    }
+    .button-tabs-blue .tab-title:hover {
+      background: #eee;
+    }
+    .button-tabs-blue .active .tab-title:hover {
+      background: #1BA8DD;
+    }
+    .button-tabs-blue.vertical {
+      overflow: hidden;
+    }
+    .button-tabs-blue.vertical > .tabs {
+      max-width: 30%;
+      float: left;
+    }
+    .button-tabs-blue.vertical > .content {
+      padding-left: 3%;
+      max-width: 70%;
+      float: right;
+    }
+    .button-tabs-blue.vertical > .tabs li,
+    .button-tabs-blue.vertical .tab-title {
+      width: 100%;
+    }
+    .button-tabs-blue.vertical > .tabs li {
+      margin-bottom: 10px;
+    }
+    .bg-dark .button-tabs-blue .tab-title span {
+      color: #222;
+    }
+
+    @media all and (max-width: 767px) {
+      .button-tabs-blue .tabs li {
+        width: 49%;
+        margin-bottom: 15px;
+      }
+      .button-tabs-blue.vertical .tabs,
+      .button-tabs-blue.vertical .content {
+        max-width: 100%;
+        width: 100%;
+        padding-left: 0;
+      }
+    }
+
 
 
 /* Dont put anything below here*/
