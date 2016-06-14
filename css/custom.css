@@ -61,6 +61,13 @@
 .hideOnMobile {
     display:inherit;
 }
+.contact-text {
+        color: white;
+    }
+
+ .contact-align {
+        text-align: right;
+    }
 
 @media (max-width: 990px) {
     .annotation-screenshot-caption {
@@ -78,6 +85,20 @@
     .contact-margin {
         margin-top: 20px;
      }
+
+    .contact-align {
+        text-align: center;
+    }
+
+    .contact-text {
+        color: black;
+        font-weight: 600;
+    }
+
+    .contact-b-u {
+        color: #1ba8dd;
+        text-transform: uppercase;
+    }
 
     .pricing-margin {
         margin-top: 20px;
@@ -108,7 +129,8 @@
 }
 
     .map-opacity {
-        opacity: .45;
+        opacity: .20;
+        filter: blur(20px);
     }
 
     .showOnMobile {
@@ -119,9 +141,6 @@
         display:none;
     }
 
-    .slider-text-padding {
-        padding-bottom: 40px;
-    }
 }
 
 @media (max-width: 770px) {
