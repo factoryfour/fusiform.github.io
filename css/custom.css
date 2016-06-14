@@ -118,6 +118,10 @@
     .hideOnMobile {
         display:none;
     }
+
+    .slider-text-padding {
+        padding-bottom: 40px;
+    }
 }
 
 @media (max-width: 770px) {
