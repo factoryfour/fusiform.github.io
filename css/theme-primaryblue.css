@@ -545,7 +545,7 @@ ul.lead li {
 }
 /*!---------- 4. COLOURS ----------*/
 .bg-primary {
-  background: #29a9db; /*!important*/
+  background: #29a9db !important;
 }
 .bg-secondary {
   background: #f8f8f8;
