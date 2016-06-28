@@ -462,7 +462,7 @@ a {
   opacity: 1;
 }
 a:hover {
-  color: #7404ff;
+  color: #337ab7; /*#7404ff*/
   text-decoration: none;
 }
 .label {
