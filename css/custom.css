@@ -3,9 +3,9 @@
 .bg-primary {
     background: #9037FF;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top left, #6c39ec, #9037ff 55%);
+    background: -webkit-linear-gradient(to top left, #6932f4, #9037ff 55%);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top left, #6c39ec, #9037ff 55%); /*6d3ce7*/
+    background: linear-gradient(to top left, #6932f4, #9037ff 55%); /*6d3ce7*/ /*6c39ec*/
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .mobileThreeDisable {
