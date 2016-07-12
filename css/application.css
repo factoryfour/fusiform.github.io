@@ -1,6 +1,6 @@
 body {
     background: #252831;
-    font-family: 'Avenir Next LT Pro Regular';
+    font-family: 'Avenir Next LT Pro Regular', Montserrat;
 }
 
 .vertical-center {
@@ -21,8 +21,8 @@ body {
 }
 
 .btn-primary-outline {
-    font-size: 1em; 
-    color: #29a4be; 
+    font-size: 1em;
+    color: #29a4be;
     border-color: #29a4be;
 }
 
