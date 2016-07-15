@@ -368,7 +368,7 @@
     width: 30px;
     height: 30px;
     border: 5px solid transparent;
-    border-bottom: 5px solid #00b8fc;
+    border-bottom: 5px solid #16c4d6; /*#00b8fc*/
     border-radius: 100%;
     -webkit-animation: rotate 1s linear infinite;
     animation: rotate 1s linear infinite;
