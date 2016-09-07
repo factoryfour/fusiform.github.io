@@ -543,6 +543,10 @@
    }
    .button-tabs-tl .tab-title:before {
      left: 8%;
+     margin-left:-6px;
+   }
+   .button-tabs-tl .active .tab-title:before {
+     left: 8%;
      margin-left:-8px;
    }
  }
