@@ -619,6 +619,7 @@ $(document).ready(function() {
         $('.tabs').find('li:nth-of-type(1)').removeClass('active');
         $('.tabs').find('li:nth-of-type(2)').addClass('active');
 
+
     });
 
     // Local Videos

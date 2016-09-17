@@ -251,6 +251,7 @@
     -moz-transition: all 0.3s ease;
     margin-right: 8px;
     margin-bottom: 24px;
+    background-color: transparent;
 }
 .btn-blue:hover {
     background: #1BA8DD;
@@ -411,7 +412,7 @@
  	/*bottom: 0;*/
   margin-top:30px;
  	width: 5px;
-  height: 368px;
+  height: 424px;
  	background: #afdcf8;
  	left: 8%;
  	margin-left: -49px;
@@ -526,10 +527,11 @@
  .bg-dark .button-tabs-tl .tab-title span {
    color: #222;
  }
- @media all and (max-width: 767px) {
+ @media (max-width: 767px) {
    .button-tabs-tl .tabs li {
      width: 49%;
      margin-bottom: 15px;
+     margin-left: 8%;
    }
    .button-tabs-tl.vertical .tabs,
    .button-tabs-tl.vertical .content {
@@ -540,6 +542,7 @@
    .button-tabs-tl:before {
    	left: 8%;
    	margin-left: -1px;
+    height: 424px;
    }
    .button-tabs-tl .tab-title:before {
      left: 8%;
@@ -547,6 +550,65 @@
    }
    .button-tabs-tl .active .tab-title:before {
      left: 8%;
+     margin-left:-8px;
+   }
+ }
+
+ @media (min-width: 768px) and (max-width:990px) {
+   .button-tabs-tl .tabs li {
+     width: 49%;
+     margin-bottom: 15px;
+     margin-left: 5%;
+   }
+
+   .button-tabs-tl:before {
+     left: 7%;
+     /*margin-left: -36px;*/
+      height: 540px;
+   }
+   .button-tabs-tl .tab-title:before {
+     left: 7%;
+     /*margin-left:-26px;*/
+   }
+   .button-tabs-tl .active .tab-title:before {
+     left: 7%;
+     /*margin-left:-28px;*/
+   }
+
+ }
+ @media (min-width: 992px) {
+
+   .button-tabs-tl:before {
+     left: 8%;
+     margin-left: -32px;
+      height: 445px;
+   }
+   .button-tabs-tl .tab-title:before {
+     left: 6%;
+     margin-left:-18px;
+   }
+   .button-tabs-tl .active .tab-title:before {
+     left: 6%;
+     margin-left:-20px;
+   }
+ }
+ @media (min-width: 1200px) {
+   .button-tabs-tl .tabs li {
+     width: 20%;
+     margin-bottom: 15px;
+     margin-left: 75px;
+   }
+   .button-tabs-tl:before {
+     left: 8%;
+     margin-left: -24px;
+      height: 440px;
+   }
+   .button-tabs-tl .tab-title:before {
+     left: 6%;
+     margin-left:-6px;
+   }
+   .button-tabs-tl .active .tab-title:before {
+     left: 6%;
      margin-left:-8px;
    }
  }
