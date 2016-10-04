@@ -623,7 +623,7 @@
  	/*bottom: 0;*/
   margin-top:30px;
  	width: 5px;
-  height: 224px;
+  /*height: 324px;*/
  	background: #afdcf8;
  	left: 8%;
  	margin-left: -49px;
@@ -640,7 +640,7 @@
  .button-tabs-tlv .tabs > li {
    margin-bottom: 8px;
    float: left;
-      margin-left:47px;
+    margin-left:47px;
  }
  .button-tabs-tlv .tabs > li:last-child {
    margin-right: 0;
@@ -739,6 +739,32 @@
    color: #222;
  }
 
+ @media (max-width: 384px) {
+   .button-tabs-tlv .tabs li {
+     width: 49%;
+     margin-bottom: 15px;
+     margin-left: 8%;
+   }
+   .button-tabs-tlv.vertical .tabs,
+   .button-tabs-tlv.vertical .content {
+     max-width: 100%;
+     width: 100%;
+     padding-left: 0;
+   }
+   .button-tabs-tlv:before {
+   	left: 8%;
+   	margin-left: -1px;
+    height: 400px;
+   }
+   .button-tabs-tlv .tab-title:before {
+     left: 8%;
+     margin-left:-6px;
+   }
+   .button-tabs-tlv .active .tab-title:before {
+     left: 8%;
+     margin-left:-8px;
+   }
+ }
 
  @media (max-width: 767px) {
    .button-tabs-tlv .tabs li {
