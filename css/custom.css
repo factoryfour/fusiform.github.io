@@ -868,7 +868,7 @@
   padding-bottom: 0px;
   font-size: 60px;
   line-height: 60px;
-  /*font-weight: bold;*/
+  font-weight: bold;
   color: white;
   text-transform: uppercase;
 }
@@ -941,20 +941,21 @@
   /*padding-top: 200px;*/
   padding-bottom: 0px;
   font-size: 60px;
-  /*font-weight: bold;*/
+  font-weight: bold;
   color: white;
   text-transform: uppercase;
   text-align: right;
+  line-height: 60px;
 }
-/*.cast-slider-right > h1:before {
+.cast-slider-right > h1:before {
   margin-bottom: 10px;
   content:"";
   display: block;
-  width: 340px;
+  width: auto;
   height: 8px;
   background-color: white;
   text-align: right;
-}*/
+}
 .cast-slider-right > h1:after {
   margin-top: 10px;
   content:"";
