@@ -8,6 +8,15 @@
     background: linear-gradient(to top left, #652df4, #9037ff 55%); /*6d3ce7*/ /*6c39ec*/ /*6932f4*/
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+.bg-darkblue {
+  background: #182952;
+}
+.bg-castpurple {
+  background: #652df4;
+}
+.bg-castblue {
+  background: #29a9db;
+}
 .mobileThreeDisable {
     display: none;
 }
@@ -852,3 +861,113 @@
      margin-left:-8px;
    }
  }
+
+ /* CAST SLIDER HEADING */
+.cast-slider-left > h1 {
+  /*padding-top: 200px;*/
+  padding-bottom: 0px;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
+.cast-slider-left > h1:before {
+  margin-bottom: 10px;
+  content:"";
+  display: block;
+  width: auto;
+  height: 8px;
+  background-color: white;
+}
+.cast-slider-left > h1:after {
+  margin-top: 10px;
+  content:"";
+  display: block;
+  width: auto;
+  height: 8px;
+  background-color: white;
+}
+.cast-slider-left > h2 {
+  /*padding-top: 200px;*/
+  padding-bottom: 0px;
+  font-size: 40px;
+  /*font-weight: bold;*/
+  color: #29a9db;
+  text-transform: uppercase;
+  line-height: 40px;
+}
+.cast-slider-left > h2:before {
+  margin-bottom: 10px;
+  content:"";
+  display: block;
+  width: auto;
+  height: 8px;
+  background-color: #29a9db;
+}
+.cast-slider-left > h2:after {
+  margin-top: 10px;
+  content:"";
+  display: block;
+  width: auto;
+  height: 8px;
+  background-color: #29a9db;
+}
+.cast-slider-left > h3 {
+  /*padding-top: 200px;*/
+  padding-bottom: 0px;
+  font-size: 40px;
+  /*font-weight: bold;*/
+  color: #29a9db;
+  line-height: 40px;
+}
+.cast-slider-left > h3:before {
+  margin-bottom: 10px;
+  content:"";
+  display: block;
+  width: auto;
+  height: 8px;
+  background-color: #29a9db;
+}
+.cast-slider-left > h3:after {
+  margin-top: 10px;
+  content:"";
+  display: block;
+  width: auto;
+  height: 8px;
+  background-color: #29a9db;
+}
+.cast-slider-right > h1 {
+  /*padding-top: 200px;*/
+  padding-bottom: 0px;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  text-align: right;
+  line-height: 60px;
+}
+.cast-slider-right > h1:before {
+  margin-bottom: 10px;
+  content:"";
+  display: block;
+  width: auto;
+  height: 8px;
+  background-color: white;
+  text-align: right;
+}
+.cast-slider-right > h1:after {
+  margin-top: 10px;
+  content:"";
+  display: block;
+  width: auto;
+  height: 8px;
+  background-color: white;
+  text-align: right;
+}
+.cast-number {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  padding-right: 20px;
+}
