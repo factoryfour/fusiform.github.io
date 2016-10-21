@@ -24,18 +24,18 @@
 .flex-direction-nav a {
   text-decoration: none;
   display: block;
-  width: 100px;
+  width: 200px;
   height: 350px;
-  margin: -100px 0 0 0;
+  /*margin: -100px 0 0 0;*/
   position: absolute;
-  top: 50%;
+  /*top: 50%;*/
   z-index: 10;
   overflow: hidden;
   opacity: 0;
   cursor: pointer;
 }
 .flex-direction-nav a:before {
-  font-family: "flexslider-icon";
+  font-family: "";
   font-size: 100px;
   display: absolute;
   content: '\f001';
@@ -132,6 +132,7 @@
 /* ------------------------*/ /* ---------->>> 7. TEXT STYLES <<<-----------*/ /* ------------------------*/
 
 h1 {
+  /*font: bold 60px 'Avenir Next LT Pro Heavy', Montserrat;*/
   font: bold 60px 'Avenir Next LT Pro Heavy', Montserrat;
   text-transform: uppercase;
 }
@@ -160,9 +161,6 @@ h8 {
 }
 h9 {
   font: 18px 'Avenir Next LT Pro Regular', Montserrat;
-}
-#hovermation:hover {
-  transition: all
 }
 .slidernext {
   position: absolute;
@@ -210,6 +208,82 @@ h9 {
   font: bold 60px 'Avenir Next LT Pro Bold', Montserrat;
   color: #1d97d5;
   margin-right: 8px;
+}
+/*.dividerL {
+  display: block;
+  border-left: 2px solid #dddbdb;
+  padding: 20px;
+}*/
+@media (max-width:370px) {
+  h1, .steps { font-size: 28px; }
+  h2 { font-size: 20px; }
+  h3 { font-size: 20px; }
+  h4 { font-size: 20px; }
+  h5 { font-size: 25px; }
+
+  h6 { font-size: 20px; }
+  h7 { font-size: 20px; }
+  h8 { font-size: 15px; }
+  h9 { font-size: 15px; }
+
+  .underline15CB {
+    display: inline-block;
+    border-bottom: 8px solid #1d97d5;
+    padding-bottom: 5px;
+  }
+  .underline15 {
+    display: inline-block;
+    border-bottom: 8px solid;
+    padding-bottom: 5px;
+  }
+}
+@media (min-width: 371px) and (max-width:693px) {
+  h1, .steps { font-size: 25px; }
+  h2 { font-size: 45px; }
+  h3 { font-size: 40px; }
+  h4 { font-size: 25px; }
+  h5 { font-size: 30px; }
+
+  h6 { font-size: 20px; }
+  h7 { font-size: 20px; }
+  h8 { font-size: 15px; }
+  h9 { font-size: 15px; }
+
+  .underline15CB {
+    display: inline-block;
+    border-bottom: 8px solid #1d97d5;
+    padding-bottom: 5px;
+  }
+  .underline15 {
+    display: inline-block;
+    border-bottom: 8px solid;
+    padding-bottom: 5px;
+  }
+  /*.img-mobile { width: 50%; }*/
+}
+@media (min-width: 694px) and (max-width:766px) {
+  h1, .steps { font-size: 50px; }
+  h2 { font-size: 40px; }
+  h3 { font-size: 40px; }
+  h4 { font-size: 25px; }
+  h5 { font-size: 30px; }
+
+  h6 { font-size: 20px; }
+  h7 { font-size: 20px; }
+  h8 { font-size: 15px; }
+  h9 { font-size: 15px; }
+}
+@media (min-width: 767px) and (max-width:990px) {
+  h1, .steps { font-size: 54px; }
+  h2 { font-size: 40px; }
+  h3 { font-size: 40px; }
+  h4 { font-size: 35px; }
+  h5 { font-size: 35px; }
+
+  h6 { font-size: 20px; }
+  h7 { font-size: 20px; }
+  h8 { font-size: 15px; }
+  h9 { font-size: 15px; }
 }
 
 /* ------------------------*/ /* ---------->>> 10. ANIMATIONS <<<-----------*/ /* ------------------------*/
@@ -349,7 +423,7 @@ h9 {
   animation-timing-function: ease-in-out;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
-  cursor: pointer;
+  /*cursor: pointer;*/
 }
 
 /* ------------------------*/ /* ---------->>> 11. EXTRAS <<<-----------*/ /* ------------------------*/
