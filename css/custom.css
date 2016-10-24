@@ -202,6 +202,15 @@ h9 {
   padding: 30px;
 }
 
+.container #accentboxCB {
+  border: 2px solid #1d97d5;
+  -webkit-box-shadow: 6px 6px 0px 0px rgba(29, 151, 213, 0.5);
+  -moz-box-shadow: 6px 6px 0px 0px rgba(29, 151, 213, 0.5);
+  box-shadow: 6px 6px 0px 0px rgba(29, 151, 213, 0.5);
+  background-color: #FFF;
+  padding: 30px;
+}
+
 .underline14 {
   display: inline-block;
   border-bottom: 14px solid;
@@ -344,13 +353,13 @@ h9 {
 }
 
 /* ------------------------*/ /* ---------->>> 10. ANIMATIONS <<<-----------*/ /* ------------------------*/
-.panelscroll {
+/*.panelscroll {
   height: 100%;
   width: 100%;
 }
 .fish {
 		min-width: 500px;
-	}
+	}*/
 
 /* Float */
 .hvr-float {
