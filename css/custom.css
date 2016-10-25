@@ -184,7 +184,7 @@ h9 {
 /* ------------------------*/ /* ---------->>> 8. NAVIGATION <<<-----------*/ /* ------------------------*/
 /* ------------------------*/ /* ---------->>> 9. DECORATION <<<-----------*/ /* ------------------------*/
 
-.container #accentboxP {
+.container .accentboxP {
   border: 2px solid #FF8796;
   -webkit-box-shadow: 6px 6px 0px 0px rgba(235,167,167,0.5);
   -moz-box-shadow: 6px 6px 0px 0px rgba(235,167,167,0.5);
@@ -193,7 +193,7 @@ h9 {
   padding: 30px;
 }
 
-.container #accentboxMGreen {
+.container .accentboxMGreen {
   border: 2px solid #92e479;
   -webkit-box-shadow: 6px 6px 0px 0px rgba(184,233,134,.5);
   -moz-box-shadow: 6px 6px 0px 0px rgba(184,233,134,.5);
@@ -353,11 +353,11 @@ h9 {
 }
 
 /* ------------------------*/ /* ---------->>> 10. ANIMATIONS <<<-----------*/ /* ------------------------*/
-/*.panelscroll {
+.panelscroll {
   height: 100%;
   width: 100%;
 }
-.fish {
+/*.fish {
 		min-width: 500px;
 	}*/
 
