@@ -72,12 +72,12 @@
 .colorDB { color: #182951; }
 .colorCB { color: #1d97d5; }
 .colorTB { color: #46e6c2; }
-.colorLGreen { color: #b8e986; }
-.colorMGreen { color: #92e479; }
+.colorLGreen { color: #a8ee63; }
+.colorMGreen { color: #77da5a; }
 .colorLO { color: #f5a623; }
 .colorRO { color: #ed6940; }
-.colorP { color: #FF8796; }
-.colorLR { color: #E54E61; }
+.colorP { color: #bb5d69; }
+.colorLR { color: #f62a45; }
 .colorM { color: #bd10e0; }
 
 .bgK { background-color: #000; }
@@ -87,12 +87,12 @@
 .bgDB { background-color: #182951; }
 .bgCB { background-color: #1d97d5; }
 .bgTB { background-color: #46e6c2; }
-.bgLGreen { background-color: #b8e986; }
-.bgMGreen { background-color: #92e479; }
+.bgLGreen { background-color: #a8ee63; }
+.bgMGreen { background-color: #77da5a; }
 .bgLO { background-color: #f5a623; }
 .bgRO { background-color: #ed6940; }
-.bgP { background-color: #FF8796;}
-.bgLR { background-color: #E54E61; }
+.bgP { background-color: #bb5d69;}
+.bgLR { background-color: #f62a45; }
 .bgM { background-color: #bd10e0; }
 
 
@@ -142,36 +142,40 @@
 
 h1 {
   /*font: bold 60px 'Avenir Next LT Pro Heavy', Montserrat;*/
-  font: bold 60px 'Avenir Next LT Pro Heavy', Montserrat;
+  font: bold 60px 'Montserrat'; /*bold*/
   text-transform: uppercase;
 }
 h2 {
-  font: bold 48px 'Avenir Next LT Pro Heavy', Montserrat;
+  font: bold 48px 'Montserrat'; /*heavy*/
 }
 h3 {
-  font: bold 40px 'Avenir Next LT Pro Bold', Montserrat;
+  font: bold 40px 'Montserrat'; /*bold*/
   color:  #1d97d5;
 }
 h4 {
-  font: bold 35px 'Avenir Next LT Pro Bold', Montserrat;
+  font: bold 35px 'Lato'; /*bold*/
   line-height: 1;
+  font-weight: 700;
 }
 h5 {
-  font: 30px 'Avenir Next LT Pro Regular', Montserrat;
+  font: 30px 'Lato'; /*regular*/
   line-height: 1.5;
+  font-weight: 600;
 }
 h6 {
-  font: 26px 'Avenir Next LT Pro Demi', Montserrat;
+  font: 26px 'Montserrat'; /*demi*/
   text-transform: uppercase;
 }
 h7 {
-  font: 20px 'Avenir Next LT Pro Medium', Montserrat;
+  font: 20px 'Lato'; /*medium*/
 }
 h8 {
-  font: 16px 'Avenir Next LT Pro Bold', Montserrat;
+  font: 16px 'Lato'; /*bold*/
+  font-weight: 700;
 }
 h9 {
-  font: 18px 'Avenir Next LT Pro Regular', Montserrat;
+  font: 18px 'Lato';
+  font-weight: 400;
 }
 .slidernext {
   position: absolute;
@@ -185,7 +189,7 @@ h9 {
 /* ------------------------*/ /* ---------->>> 9. DECORATION <<<-----------*/ /* ------------------------*/
 
 .container .accentboxP {
-  border: 2px solid #FF8796;
+  border: 2px solid #f62a45;
   -webkit-box-shadow: 6px 6px 0px 0px rgba(235,167,167,0.5);
   -moz-box-shadow: 6px 6px 0px 0px rgba(235,167,167,0.5);
   box-shadow: 6px 6px 0px 0px rgba(235,167,167,0.5);
@@ -194,7 +198,7 @@ h9 {
 }
 
 .container .accentboxMGreen {
-  border: 2px solid #92e479;
+  border: 2px solid #77da5a;
   -webkit-box-shadow: 6px 6px 0px 0px rgba(184,233,134,.5);
   -moz-box-shadow: 6px 6px 0px 0px rgba(184,233,134,.5);
   box-shadow: 6px 6px 0px 0px rgba(184,233,134,.5);
@@ -225,11 +229,11 @@ h9 {
 }
 .underline14LGreen {
   display: inline-block;
-  border-bottom: 14px solid #b8e986;
+  border-bottom: 14px solid #a8ee63;
 }
 .underline14MGreen {
   display: inline-block;
-  border-bottom: 14px solid #92e479;
+  border-bottom: 14px solid #77da5a;
 }
 .underline14LO {
   display: inline-block;
@@ -241,7 +245,7 @@ h9 {
 }
 .underline14LR {
   display: inline-block;
-  border-bottom: 14px solid #E54E61;
+  border-bottom: 14px solid #f62a45;
 }
 .underline14M {
   display: inline-block;
@@ -256,8 +260,11 @@ h9 {
   border-bottom: 5px solid #1d97d5;
 }
 .labeltag {
-  padding: 8px 9px 6px 8px;
-  margin: 0 10px 0 0;
+  /*padding: 8px 9px 6px 8px;*/
+  padding: 8px 11px 7px 8px;
+  /*margin: 0 10px 0 -140px;*/
+  left: 100%;
+  /*position: absolute;*/
 }
 .arrow-right {
   width: 0;
