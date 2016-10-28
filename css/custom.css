@@ -153,7 +153,7 @@ h2 {
   font: bold 48px 'Montserrat'; /*heavy*/
 }
 h3 {
-  font: bold 40px 'Montserrat'; /*bold*/
+  font: bold 38px 'Montserrat'; /*bold*/
   color:  #1d97d5;
 }
 h4 {
@@ -162,9 +162,9 @@ h4 {
   font-weight: 700;
 }
 h5 {
-  font: 30px 'Lato'; /*regular*/
+  font: 25px 'Lato'; /*regular*/
   line-height: 1.5;
-  font-weight: 600;
+  font-weight: 400;
 }
 h6 {
   font: 26px 'Montserrat'; /*demi*/
