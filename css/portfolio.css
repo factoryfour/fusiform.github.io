@@ -110,7 +110,7 @@ a, a:link, a:hover, a:active, a:visited {
 }
 
 .logo__image {
-  width: 80px;
+  width: 150px;
   padding-left: 20px;
 }
 
@@ -145,6 +145,7 @@ body,
 .reveal .controls .navigate-right,
 .reveal .controls .navigate-right.enabled {
   border-left-color: #62606f;
+  border-left-color: #09ACF8;
 }
 
 .reveal .controls .navigate-right.enabled:hover {
@@ -153,10 +154,12 @@ body,
 
 .reveal .controls .navigate-down,
 .reveal .controls .navigate-down.enabled {
-  border-top-color: #62606f;
+  /*border-top-color: #62606f;*/
+  border-top-color: red;
 }
 
 .reveal .controls .navigate-down.enabled:hover {
+  /*border-top-color: black;*/
   border-top-color: black;
 }
 
