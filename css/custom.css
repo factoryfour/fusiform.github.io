@@ -1492,3 +1492,37 @@ h9 {
   color: white;
   padding-right: 20px;
 }
+
+/* IndexCover Animation */
+.fusiform {
+  opacity: 0;
+  animation: hideshow 10s 5.5s ease infinite;
+}
+/*.cast {
+  opacity: 0;
+  animation: hideshow 10s 1.5s ease infinite;
+}*/
+.cast {
+  transform: translateY(150px);
+  animation: popup 10s 6.5s ease infinite;
+}
+@keyframes popup {
+  0% {
+    transform: translateY(150px);
+  }
+  34% {
+    transform: translateY(20px);
+  }
+  37% {
+    transform: translateY(150px);
+  }
+  100% {
+    transform: translateY(150px);
+  }
+}
+@keyframes hideshow {
+  0% { opacity: 1; }
+  10% { opacity: 1; }
+  15% { opacity: 0; }
+  100% { opacity: 0; }
+}
