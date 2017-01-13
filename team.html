@@ -10,7 +10,7 @@
     <link href="css/flexslider.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/ytplayer.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="css/theme-purple.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/theme-nearblack.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
     <link href="fonts/avenir.css" rel="stylesheet" type="text/css" media="all" />
 
@@ -29,7 +29,7 @@
 <body>
     <div class="nav-container">
         <a id="top"></a>
-        <nav >
+        <nav class="absolute transparent">
             <div class="nav-bar">
                 <div class="module left">
                     <a href="index.html">
@@ -92,22 +92,23 @@
 
 
         <!------START TEAM------->
-        <section class="pt75 pb75">
+        <section class="page-title page-title-4 bg-castblue bg-dark">
+            <!-- <div class="background-image-holder">
+                <img alt="Background Image" class="background-image" src="img/cover12.jpg" />
+            </div>" -->
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-10 col-sm-offset-1 text-center">
-                        <h3 class="uppercase color-primary mb40 mb-xs-24">Our Team</h3>
-                        <!-- <p class="lead">
-                                Based at Johns Hopkins University, these guys put the charm in Charm City.
-                            </p> -->
-                        <br>
-                        <br>
+                    <div class="col-md-6">
+                        <h3 class="uppercase mb0">Our Team</h3>
+
                     </div>
                 </div>
                 <!--end of row-->
-
-
-
+            </div>
+            <!--end of container-->
+        </section>
+        <section class="pt75 pb75">
+            <div class="container">
                 <!--<section class="bg-secondary">-->
                 <div class="container">
                     <div class="row">
@@ -655,16 +656,28 @@ Mark is a Certified Prosthetist Orthotist and a Licensed Physical Therapist, who
 
 
 <!------START FOOTER------->
-<footer class="footer-1 bg-dark">
+<footer class="footer-1 bg-primary">
     <div class="container">
         <div class="row">
-            <div class="col-md-4 col-sm-6">
-                <img alt="Logo" class="mb20" src="img/fusiform/Brand_AltLogo_Text.png" style="width:200px" />
-                <p>Fusiform is developing novel technology in the orthopedic device industry to exponentially decrease device delivery time and improve patient accessibility.
+            <div class="col-md-5 col-sm-4">
+                <img alt="Logo" src="img/fusiform/Brand_AltLogo_Text.png" style="width:200px" />
+                <p class="pt30">Fusiform is developing novel technology in the orthopedic device industry to exponentially decrease device delivery time and improve patient accessibility.
             </div>
-            <div class="col-md-4 col-sm-6">
+            <div class="col-md-4 col-md-offset-1 col-sm-4">
+                <div class="widget">
+                    <h6 class="title">Get In Touch</h6>
+                    <hr>
+                    <h8 class="lead">contact@fusiform.co</h8>
+                    <ul class="link-list recent-posts pt10">
+                        <!-- <h8 class="">HQ</h8> -->
+                        <li class="pt20">
+                            <p>10 E North Avenue Baltimore, MD 21202</p>
+                        </li>
+
+                    </ul>
+                </div>
             </div>
-            <div class="col-md-4 col-sm-6">
+            <div class="col-md-2 col-sm-4">
                 <div class="widget">
                     <h6 class="title">Quick Links</h6>
                     <hr>
@@ -696,7 +709,6 @@ Mark is a Certified Prosthetist Orthotist and a Licensed Physical Therapist, who
     <!--end of container-->
     <a class="btn btn-sm fade-half back-to-top inner-link" href="#top">Top</a>
 </footer>
-<!------END FOOTER------->
 
 </div>
 
