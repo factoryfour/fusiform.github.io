@@ -71,7 +71,7 @@ section {
 .z-2 { z-index: 2; }
 .z-3 { z-index: 3; }
 
-@media (max-width: 990px) {
+@media (min-width: 768px) {
     .screenmd-mt100- { margin-top: -100px; }
 }
 @media (max-width: 768px) {
@@ -398,9 +398,9 @@ h9 {
     border-bottom: 5px solid #77da5a;
   }
 }
-@media (min-width: 694px) and (max-width:766px) {
+@media (max-width:766px) {
   h1, .steps { font-size: 50px; }
-  h2 { font-size: 40px; }
+  h2 { font-size: 30px; }
   h3 { font-size: 40px; }
   h4 { font-size: 20px; }
   h5 { font-size: 20px; }
