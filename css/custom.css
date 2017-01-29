@@ -44,6 +44,22 @@
   content: '\f002';
 }
 
+.screen-only {
+    display: block;
+}
+.mobile-only {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .screen-only {
+        display: none;
+    }
+    .mobile-only {
+        display: block;
+    }
+}
+
 
 /* ------------------------*/ /* ---------->>> 2. SPACING <<<-----------*/ /* ------------------------*/
 .pt10 { padding-top: 10px; }
