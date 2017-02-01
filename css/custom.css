@@ -210,6 +210,9 @@ h9 {
   font: 18px 'Lato';
   font-weight: 400;
 }
+.text-wide {
+  letter-spacing: 1px;
+}
 .slidernext {
   position: absolute;
   right: 0;
@@ -327,11 +330,9 @@ h9 {
   padding-bottom: 4px;
 }
 .labeltag {
-  /*padding: 8px 9px 6px 8px;*/
-  padding: 8px 11px 7px 8px;
-  /*margin: 0 10px 0 -140px;*/
+  padding: 8px 15px 9px 13px;
   left: 100%;
-  /*position: absolute;*/
+  border-radius: 0 3px 3px 0;
 }
 .arrow-right {
   width: 0;
