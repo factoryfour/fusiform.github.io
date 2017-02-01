@@ -1666,7 +1666,7 @@ svg > image {
 }
 /* Animation - Dropdown */
 .animation-dropdown {
-  animation: fadeInDown 2.7s ease-in-out forwards;
+  animation: fadeInDown 1.7s ease-out forwards;
 }
 @keyframes fadeInDown {
   from {
